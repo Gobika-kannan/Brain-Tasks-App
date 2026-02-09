@@ -34,11 +34,18 @@ GitHub → CodePipeline → CodeBuild → ECR → EKS
 - Tag and push image to ECR
 - Deploy application to EKS using kubectl
 
-### LoadBalancer URL
+Kubernetes LoadBalancer Type:
+Classic Elastic Load Balancer
+
+LoadBalancer Name:
+k8s-default-braintasks-app
+
+LoadBalancer DNS Name:
 http://a433533f6268046d281fb48cccf5855a-1431978777.ap-south-1.elb.amazonaws.com/
 
-### LoadBalancer ARN
-arn:aws:ec2:ap-south-1:127424156101:instance/i-06d0f9ef2455867a7
+Region:
+ap-south-1
+
 ## Conclusion
 This project successfully demonstrates an end-to-end DevOps workflow.
 All DevOps implementation including Dockerization, AWS services,
