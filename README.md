@@ -4,16 +4,11 @@
 This project demonstrates deploying a production-ready frontend application
 using Docker, AWS ECR, AWS EKS (Kubernetes), and CI/CD with AWS CodeBuild
 and CodePipeline.
-
-The goal of this assignment is to containerize the application, deploy it
-to Kubernetes, expose it using a LoadBalancer, and automate the deployment
-process using AWS CI/CD services.
 ## Repository Note
 This repository is forked from the original application source:
 https://github.com/Vennilavan12/Brain-Tasks-App
 ## Docker Implementation
 - The application is containerized using Docker
-- The `dist` folder is copied to the Nginx HTML directory
 - The container exposes port 80
 - The application was tested locally and on EC2
 
